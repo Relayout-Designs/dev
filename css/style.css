@@ -74,3 +74,12 @@ video {
     /* 1 */
     -ms-interpolation-mode: bicubic;
 }
+
+.box {
+    max-width: 150px;
+    margin: 10px;
+    float: left;
+}
+.box img {
+    --aspect-ratio: 150/195;
+}
